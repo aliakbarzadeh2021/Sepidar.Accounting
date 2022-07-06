@@ -1,0 +1,32 @@
+using Sepidar.Infrastructure.Enum;
+using System;
+
+namespace Sepidar.Message.Dtos
+{
+    public class PartyRelatedDto
+    {
+          
+ 
+		public Int32 PartyRelatedId { get; set; }  
+ 
+		public Int32 PartyRef { get; set; }  
+ 
+		public Nullable<Boolean> IsMain { get; set; }  
+ 
+		public String Name { get; set; }  
+ 
+		public String Post { get; set; }  
+ 
+		public String Name_En { get; set; }  
+ 
+		public String Post_En { get; set; }  
+ 
+		public String Phone { get; set; }  
+ 
+		public String Email { get; set; }  
+ 
+		public Int32 Version { get; set; } 
+    }
+}
+
+

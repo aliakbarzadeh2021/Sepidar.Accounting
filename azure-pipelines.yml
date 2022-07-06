@@ -1,0 +1,29 @@
+name: $(SourceBranchName)_$(Date:yyyyMMdd)$(Rev:.r)
+
+trigger:
+- develop
+
+pool:
+  name: Default
+
+variables:
+  buildConfiguration: 'Release'
+
+steps:
+- script: dotnet build --configuration $(buildConfiguration)
+  displayName: 'dotnet build $(buildConfiguration)'
+  workingDirectory: "$(Build.SourcesDirectory)/Sepidar.Api"
+
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'publish'
+    publishWebProjects: false
+    zipAfterPublish: false
+    arguments: '--configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)'
+    workingDirectory: "$(Build.SourcesDirectory)/Sepidar.Api"
+    
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'

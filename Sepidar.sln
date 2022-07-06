@@ -1,0 +1,83 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sepidar.Api", "Sepidar.Api\Sepidar.Api.csproj", "{98806D3E-1835-48B0-A714-01B21A5EA0E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Domain", "2.Domain", "{6E030A13-25B2-4D34-818B-B396FA7E4F48}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Repository", "3.Repository", "{76C99A4A-D251-4005-BB1E-40FC2F6DA716}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Infrastructure", "4.Infrastructure", "{325541BA-5B3D-4774-9905-4486798170BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.Message", "5.Message", "{AB4F36EA-540B-45B8-9DC5-DC7B07B076F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sepidar.Domain", "Sepidar.Domain\Sepidar.Domain.csproj", "{CEDABE56-ACFA-4FDF-8516-EFF1C9D0227C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sepidar.Repository", "Sepidar.Repository\Sepidar.Repository.csproj", "{BE992A73-04F0-4E76-8321-9534405151B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sepidar.Repository.Implementation", "Sepidar.Repository.Implementation\Sepidar.Repository.Implementation.csproj", "{B39F6663-602C-4951-959E-E5F6183C261C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sepidar.Infrastructure", "Sepidar.Infrastructure\Sepidar.Infrastructure.csproj", "{8CF2AEF8-7DBD-4758-ACA0-8FB10204D6F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Application", "1.Application", "{501CDC7A-58BA-4FEC-BBC5-17369A29C2BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sepidar.Message", "Sepidar.Message\Sepidar.Message.csproj", "{4D8029EB-243C-4226-8E14-222008098449}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CrossCutting", "CrossCutting", "{A7B1737A-1AF4-4593-906E-5AF9CCC5F20B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sepidar.Logger", "Sepidar.Logger\Sepidar.Logger.csproj", "{2EF0E924-9937-483C-8E0F-EA156C57EC34}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98806D3E-1835-48B0-A714-01B21A5EA0E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98806D3E-1835-48B0-A714-01B21A5EA0E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98806D3E-1835-48B0-A714-01B21A5EA0E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98806D3E-1835-48B0-A714-01B21A5EA0E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEDABE56-ACFA-4FDF-8516-EFF1C9D0227C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEDABE56-ACFA-4FDF-8516-EFF1C9D0227C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEDABE56-ACFA-4FDF-8516-EFF1C9D0227C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEDABE56-ACFA-4FDF-8516-EFF1C9D0227C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE992A73-04F0-4E76-8321-9534405151B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE992A73-04F0-4E76-8321-9534405151B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE992A73-04F0-4E76-8321-9534405151B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE992A73-04F0-4E76-8321-9534405151B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B39F6663-602C-4951-959E-E5F6183C261C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B39F6663-602C-4951-959E-E5F6183C261C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B39F6663-602C-4951-959E-E5F6183C261C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B39F6663-602C-4951-959E-E5F6183C261C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CF2AEF8-7DBD-4758-ACA0-8FB10204D6F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CF2AEF8-7DBD-4758-ACA0-8FB10204D6F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CF2AEF8-7DBD-4758-ACA0-8FB10204D6F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CF2AEF8-7DBD-4758-ACA0-8FB10204D6F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D8029EB-243C-4226-8E14-222008098449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D8029EB-243C-4226-8E14-222008098449}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D8029EB-243C-4226-8E14-222008098449}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D8029EB-243C-4226-8E14-222008098449}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EF0E924-9937-483C-8E0F-EA156C57EC34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EF0E924-9937-483C-8E0F-EA156C57EC34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EF0E924-9937-483C-8E0F-EA156C57EC34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EF0E924-9937-483C-8E0F-EA156C57EC34}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{98806D3E-1835-48B0-A714-01B21A5EA0E7} = {501CDC7A-58BA-4FEC-BBC5-17369A29C2BB}
+		{CEDABE56-ACFA-4FDF-8516-EFF1C9D0227C} = {6E030A13-25B2-4D34-818B-B396FA7E4F48}
+		{BE992A73-04F0-4E76-8321-9534405151B3} = {76C99A4A-D251-4005-BB1E-40FC2F6DA716}
+		{B39F6663-602C-4951-959E-E5F6183C261C} = {76C99A4A-D251-4005-BB1E-40FC2F6DA716}
+		{8CF2AEF8-7DBD-4758-ACA0-8FB10204D6F2} = {325541BA-5B3D-4774-9905-4486798170BE}
+		{4D8029EB-243C-4226-8E14-222008098449} = {AB4F36EA-540B-45B8-9DC5-DC7B07B076F3}
+		{A7B1737A-1AF4-4593-906E-5AF9CCC5F20B} = {325541BA-5B3D-4774-9905-4486798170BE}
+		{2EF0E924-9937-483C-8E0F-EA156C57EC34} = {A7B1737A-1AF4-4593-906E-5AF9CCC5F20B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7ECD57B-F2AD-49E9-9AC4-6988BFD932A9}
+	EndGlobalSection
+EndGlobal

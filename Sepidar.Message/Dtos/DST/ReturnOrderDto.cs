@@ -1,0 +1,78 @@
+using Sepidar.Infrastructure.Enum;
+using System;
+
+namespace Sepidar.Message.Dtos
+{
+    public class ReturnOrderDto
+    {
+          
+ 
+		public Int32 ReturnOrderID { get; set; }  
+ 
+		public Int32 State { get; set; }  
+ 
+		public Int32 Number { get; set; }  
+ 
+		public DateTime Date { get; set; }  
+ 
+		public Int32 CurrencyRef { get; set; }  
+ 
+		public Decimal Rate { get; set; }  
+ 
+		public Int32 CustomerPartyRef { get; set; }  
+ 
+		public Nullable<Int32> CustomerPartyAddressRef { get; set; }  
+ 
+		public Int32 SaleTypeRef { get; set; }  
+ 
+		public Int32 FiscalYearRef { get; set; }  
+ 
+		public String Description { get; set; }  
+ 
+		public Nullable<Decimal> Price { get; set; }  
+ 
+		public Nullable<Decimal> PriceInBaseCurrency { get; set; }  
+ 
+		public Nullable<Decimal> Discount { get; set; }  
+ 
+		public Nullable<Decimal> DiscountInBaseCurrency { get; set; }  
+ 
+		public Nullable<Decimal> Addition { get; set; }  
+ 
+		public Nullable<Decimal> AdditionInBaseCurrency { get; set; }  
+ 
+		public Nullable<Decimal> Tax { get; set; }  
+ 
+		public Nullable<Decimal> TaxInBaseCurrency { get; set; }  
+ 
+		public Nullable<Decimal> Duty { get; set; }  
+ 
+		public Nullable<Decimal> DutyInBaseCurrency { get; set; }  
+ 
+		public Nullable<Decimal> NetPriceInBaseCurrency { get; set; }  
+ 
+		public Int32 Version { get; set; }  
+ 
+		public Int32 Creator { get; set; }  
+ 
+		public DateTime CreationDate { get; set; }  
+ 
+		public Int32 LastModifier { get; set; }  
+ 
+		public DateTime LastModificationDate { get; set; }  
+ 
+		public String Guid { get; set; }  
+ 
+		public Decimal AdditionFactor_VatEffective { get; set; }  
+ 
+		public Decimal AdditionFactorInBaseCurrency_VatEffective { get; set; }  
+ 
+		public Decimal AdditionFactor_VatIneffective { get; set; }  
+ 
+		public Decimal AdditionFactorInBaseCurrency_VatIneffective { get; set; }  
+ 
+		public Nullable<Decimal> NetPrice { get; set; } 
+    }
+}
+
+

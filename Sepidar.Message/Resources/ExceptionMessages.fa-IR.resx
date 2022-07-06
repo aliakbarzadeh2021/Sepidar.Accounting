@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AssetIsActiveMessage" xml:space="preserve">
+    <value>دارایی فعال است.</value>
+  </data>
+  <data name="AssetIsDepreciatedMessage" xml:space="preserve">
+    <value>دارایی مستهلک شده است.</value>
+  </data>
+  <data name="AssetIsUnUseMessage" xml:space="preserve">
+    <value>دارایی قبلا بلااستفاده شده است، امکان ثبت عملیات تکراری وجود ندارد.</value>
+  </data>
+  <data name="DefaultMessage" xml:space="preserve">
+    <value>عملیات با موفقیت انجام شد.</value>
+  </data>
+  <data name="DuplicateAcquisitionMessage" xml:space="preserve">
+    <value>برای این دارایی عملیات تحصیل انجام شده است، امکان تحصیل دوباره وجود ندارد.</value>
+  </data>
+  <data name="DuplicateAssetDepreciationCalculateMessage" xml:space="preserve">
+    <value>برای این دارایی در این تاریخ استهلاک محاسبه شده است.</value>
+  </data>
+  <data name="DuplicateAssetDepreciationMethodMessage" xml:space="preserve">
+    <value>روش استهلاک دارایی تکراری است. </value>
+  </data>
+  <data name="DuplicateAssetMessage" xml:space="preserve">
+    <value>دارایی تکراری است.</value>
+  </data>
+  <data name="DuplicateAssetOldPlateNumberMessage" xml:space="preserve">
+    <value>دارایی با این شماره پلاک قدیم، قبلا ثبت شده است.</value>
+  </data>
+  <data name="DuplicateAssetPlateNumberMessage" xml:space="preserve">
+    <value>دارایی با این شماره پلاک، قبلا ثبت شده است.</value>
+  </data>
+  <data name="DuplicateAssetTransferMessage" xml:space="preserve">
+    <value>محل استقرار ، مرکز هزینه و تحویل گیرنده تکراری است.</value>
+  </data>
+  <data name="DuplicateDepreciationRulesMessage" xml:space="preserve">
+    <value>قانون استهلاک تکراری است.</value>
+  </data>
+  <data name="DuplicateGroupMessage" xml:space="preserve">
+    <value>گروه تکراری است.</value>
+  </data>
+  <data name="DuplicateGroupSettingMessage" xml:space="preserve">
+    <value>تنظیمات گروه قبلا انجام شده است.</value>
+  </data>
+  <data name="DuplicateGuaranteeMessage" xml:space="preserve">
+    <value>این دارایی گارانتی دارد، امکان ثبت گارانتی وجود ندارد.</value>
+  </data>
+  <data name="DuplicateInsuranceMessage" xml:space="preserve">
+    <value>برای این دارایی، این نوع بیمه در تاریخ مشخص شده وجود دارد.</value>
+  </data>
+  <data name="DuplicatePlateSettingMessage" xml:space="preserve">
+    <value>تنظیمات پلاک گذاری قبلا انجام شده است.</value>
+  </data>
+  <data name="DuplicateRecordMessage" xml:space="preserve">
+    <value>تکراری است.</value>
+  </data>
+  <data name="DuplicateRemoveAssetMessage" xml:space="preserve">
+    <value>عملیات حذف انجام شده است و امکان حذف مجدد وجود ندارد.</value>
+  </data>
+  <data name="DuplicateScrappingAssetMessage" xml:space="preserve">
+    <value>عملیات اسقاط انجام شده است و امکان اسقاط مجدد وجود ندارد.</value>
+  </data>
+  <data name="DuplicateSellAssetMessage" xml:space="preserve">
+    <value>عملیات فروش انجام شده است و امکان فروش مجدد وجود ندارد.</value>
+  </data>
+  <data name="DuplicateSubGroupDepreciationMethodMessage" xml:space="preserve">
+    <value>روش استهلاک زیر گروه تکراری است.</value>
+  </data>
+  <data name="DuplicateSubGroupMessage" xml:space="preserve">
+    <value>زیر گروه تکراری است.</value>
+  </data>
+  <data name="DuplicateSubGroupPropertiesMessage" xml:space="preserve">
+    <value>ویژگی زیر گروه تکراری است.</value>
+  </data>
+  <data name="GroupCodeLengthMessage" xml:space="preserve">
+    <value>طول کد گروه با تنظیمات مطابقت ندارد.</value>
+  </data>
+  <data name="NotAllowedAssetRemoveDateLessThanOperationDateMessage" xml:space="preserve">
+    <value>تاریخ حذف دارایی نمی تواند کوچک تر از تاریخ بهره برداری باشد.</value>
+  </data>
+  <data name="NotAllowedChangeDepreciationDateLessThanOperationDateMessage" xml:space="preserve">
+    <value>تاریخ تغییر روش استهلاک نمی تواند کوچک تر از تاریخ بهره برداری باشد.</value>
+  </data>
+  <data name="NotAllowedChangeDepreciationMethodMessage" xml:space="preserve">
+    <value>امکان تغییر روش استهلاک برای این دارایی وجود ندارد.</value>
+  </data>
+  <data name="NotAllowedCopyAssetMessage" xml:space="preserve">
+    <value>امکان تکثیر این دارایی وجود ندارد.</value>
+  </data>
+  <data name="NotAllowedDeleteAcquisitedAssetMessage" xml:space="preserve">
+    <value>این دارایی تحصیل شده است، امکان حذف وجود ندارد.</value>
+  </data>
+  <data name="NotAllowedDeleteActiveAssetMessage" xml:space="preserve">
+    <value>این دارایی فعال است، امکان حذف وجود ندارد.</value>
+  </data>
+  <data name="NotAllowedDeleteAssetMessage" xml:space="preserve">
+    <value>بعد از محاسبه استهلاک امکان حذف دارایی وجود ندارد.</value>
+  </data>
+  <data name="NotAllowedDeleteDepreciatedAssetMessage" xml:space="preserve">
+    <value>این دارایی مستهلک شده است، امکان حذف وجود ندارد.</value>
+  </data>
+  <data name="NotAllowedDeleteGroupMessage" xml:space="preserve">
+    <value>این گروه برای یک دارایی استفاده شده، امکان حذف وجود ندارد.</value>
+  </data>
+  <data name="NotAllowedDeleteGuaranteeMessage" xml:space="preserve">
+    <value>تاریخ انقضا این گارانتی گذشته است و امکان حذف وجود ندارد.</value>
+  </data>
+  <data name="NotAllowedDeleteMessage" xml:space="preserve">
+    <value>به دلیل وجود دارایی، امکان حذف وجود ندارد.</value>
+  </data>
+  <data name="NotAllowedDeleteMissingAssetMessage" xml:space="preserve">
+    <value>این دارایی مفقود شده است، امکان حذف وجود ندارد.</value>
+  </data>
+  <data name="NotAllowedDeletePropertiesMessage" xml:space="preserve">
+    <value>این ویژگی برای یک دارایی استفاده شده، امکان حذف وجود ندارد.</value>
+  </data>
+  <data name="NotAllowedDeleteRemovedAssetMessage" xml:space="preserve">
+    <value>این دارایی حذف شده است، امکان حذف وجود ندارد.</value>
+  </data>
+  <data name="NotAllowedDeleteScrappingAssetMessage" xml:space="preserve">
+    <value>این دارایی اسقاط شده است، امکان حذف وجود ندارد.</value>
+  </data>
+  <data name="NotAllowedDeleteSelledAssetMessage" xml:space="preserve">
+    <value>این دارایی فروش رفته است، امکان حذف وجود ندارد.</value>
+  </data>
+  <data name="NotAllowedDeleteSubGroupDepreciationMethodMessage" xml:space="preserve">
+    <value>این روش استهلاک برای یک دارایی استفاده شده، امکان حذف وجود ندارد.</value>
+  </data>
+  <data name="NotAllowedDeleteSubGroupMessage" xml:space="preserve">
+    <value>این زیر گروه برای یک دارایی استفاده شده، امکان حذف وجود ندارد.</value>
+  </data>
+  <data name="NotAllowedDeleteUnUsedAssetMessage" xml:space="preserve">
+    <value>این دارایی بلا استفاده شده است، امکان حذف وجود ندارد.</value>
+  </data>
+  <data name="NotAllowedDepreciationCalculateMessage" xml:space="preserve">
+    <value>امکان محاسبه استهلاک در این ماه وجود ندارد.</value>
+  </data>
+  <data name="NotAllowedEditGroupMessage" xml:space="preserve">
+    <value>این گروه برای یک دارایی استفاده شده، امکان ویرایش وجود ندارد.</value>
+  </data>
+  <data name="NotAllowedEditMessage" xml:space="preserve">
+    <value>به دلیل وجود دارایی، امکان ویرایش وجود ندارد.</value>
+  </data>
+  <data name="NotAllowedEditPropertiesMessage" xml:space="preserve">
+    <value>این ویژگی برای یک دارایی استفاده شده، امکان ویرایش وجود ندارد.</value>
+  </data>
+  <data name="NotAllowedEditSubGroupDepreciationMethodMessage" xml:space="preserve">
+    <value>این روش استهلاک برای یک دارایی استفاده شده و استهلاک آن محاسبه شده، امکان ویرایش وجود ندارد.</value>
+  </data>
+  <data name="NotAllowedEditSubGroupMessage" xml:space="preserve">
+    <value>این زیرگروه برای یک دارایی استفاده شده، امکان ویرایش وجود ندارد.</value>
+  </data>
+  <data name="NotAllowedMessage" xml:space="preserve">
+    <value>اجازه ندارد.</value>
+  </data>
+  <data name="NotAllowedReUseAssetMessage" xml:space="preserve">
+    <value>این دارایی بلااستفاده نیست و امکان عملیات استفاده مجدد وجود ندارد.</value>
+  </data>
+  <data name="NotAllowedReUseDateLessThanOperationDateMessage" xml:space="preserve">
+    <value>تاریخ استفاده مجدد نمی تواند کوچک تر از تاریخ بهره برداری باشد.</value>
+  </data>
+  <data name="NotAllowedReUseDateLessThanUnUseDateMessage" xml:space="preserve">
+    <value>تاریخ استفاده مجدد نمی تواند کوچک تر از تاریخ بلا استفاده کردن باشد.</value>
+  </data>
+  <data name="NotAllowedScrappingAssetMessage" xml:space="preserve">
+    <value>امکان اسقاط این دارایی وجود ندارد.</value>
+  </data>
+  <data name="NotAllowedScrappingDateLessThanOperationDateMessage" xml:space="preserve">
+    <value>تاریخ اسقاط نمی تواند کوچک تر از تاریخ بهره برداری باشد.</value>
+  </data>
+  <data name="NotAllowedSellAssetMessage" xml:space="preserve">
+    <value>امکان فروش این دارایی وجود ندارد.</value>
+  </data>
+  <data name="NotAllowedSellDateLessThanOperationDateMessage" xml:space="preserve">
+    <value>تاریخ فروش نمی تواند کوچک تر از تاریخ بهره برداری باشد.</value>
+  </data>
+  <data name="NotAllowedTransferDateLessThanOldTransferDateMessage" xml:space="preserve">
+    <value>تاریخ انتقال نمی تواند کوچک تر از تاریخ انتقال قبلی باشد.</value>
+  </data>
+  <data name="NotAllowedTransferDateLessThanOperationDateMessage" xml:space="preserve">
+    <value>تاریخ انتقال نمی تواند کوچک تر از تاریخ بهره برداری باشد.</value>
+  </data>
+  <data name="NotAllowedUnUsedAssetMessage" xml:space="preserve">
+    <value>این دارایی فعال نیست و امکان بلااستفاده کردن آن وجود ندارد.</value>
+  </data>
+  <data name="NotAllowedUnUseDateLessThanOperationDateMessage" xml:space="preserve">
+    <value>تاریخ بلا استفاده کردن نمی تواند کوچک تر از تاریخ بهره برداری باشد.</value>
+  </data>
+  <data name="NotFoundAssetDepreciationMethodMessage" xml:space="preserve">
+    <value>روش استهلاک دارایی مورد نظر یافت نشد.</value>
+  </data>
+  <data name="NotFoundAssetMessage" xml:space="preserve">
+    <value>دارایی مورد نظر یافت نشد.</value>
+  </data>
+  <data name="NotFoundDepreciationRulesMessage" xml:space="preserve">
+    <value>قانون استهلاک مورد نظر یافت نشد.</value>
+  </data>
+  <data name="NotFoundGroupMessage" xml:space="preserve">
+    <value>گروه یافت نشد.</value>
+  </data>
+  <data name="NotFoundGroupSettingMessage" xml:space="preserve">
+    <value>تنظیمات گروه یافت نشد.</value>
+  </data>
+  <data name="NotFoundMessage" xml:space="preserve">
+    <value>مورد پیدا نشد.</value>
+  </data>
+  <data name="NotFoundPlateSettingMessage" xml:space="preserve">
+    <value>تنظیمات پلاک گذاری انجام نشده است.</value>
+  </data>
+  <data name="NotFoundSettingMessage" xml:space="preserve">
+    <value>تنظیمات انجام نشده است.</value>
+  </data>
+  <data name="NotFoundSubGroupDepreciationMethodMessage" xml:space="preserve">
+    <value>روش استهلاک زیر گروه مورد نظر یافت نشد.</value>
+  </data>
+  <data name="NotFoundSubGroupMessage" xml:space="preserve">
+    <value>زیر گروه یافت نشد.</value>
+  </data>
+  <data name="NotFoundSubGroupPropertiesMessage" xml:space="preserve">
+    <value>ویژگی زیر گروه مورد نظر یافت نشد.</value>
+  </data>
+  <data name="PlateCodeLengthMessage" xml:space="preserve">
+    <value>طول کد پلاک بیش از حد مجاز است.</value>
+  </data>
+  <data name="SubGroupCodeLengthMessage" xml:space="preserve">
+    <value>طول کد زیر گروه با تنظیمات مطابقت ندارد.</value>
+  </data>
+</root>
